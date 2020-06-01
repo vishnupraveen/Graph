@@ -59,6 +59,7 @@ public class UnionFind {
             sz[root1]+=sz[root2];
             id[root2]=root1;
         }
+        numComponents--;
 
     }
 
